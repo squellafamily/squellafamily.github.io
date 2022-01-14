@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<title>%title%</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="template-1/img/favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+
+		
+		
+		<link rel="stylesheet" href="index.php">
+<link rel="stylesheet" href="steamauth/steamauth.php">
+<link rel="stylesheet" href="steamauth/SteamConfig.php">
+<link rel="stylesheet" href="steamauth/userInfo.php">
+<link rel="stylesheet" href="steamauth/openid.php">
+
+
+		<link rel="stylesheet" type="text/css" href=window/window.css">
+		<script type="text/javascript" src="window/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="window/bowser.js"></script>
+		<script type="text/javascript" src="window/useragents.js"></script>
+		<script type="text/javascript" src="window/window.js"></script>
+       
+	</head>
+   </head>
+
+
+	<body>
+		
+<div class="header">
+	<div class="header__section">
+		<div class="header__item headerlogo"> 
+		<a class="logo" href="index.html">Squella</a>	
+		</div>
+	 <!--	<div class="header__item headerButton"><a href="">новости сайта</a></div>-->
+		<div class="header__item headerButton"><a href="referal.html">Нажмите сюда чтобы оставить заявку!</a></div> 
+		
+
+	</div>
+	
+
+</div>
+
+
+		<div id="content" >
+			<div id="content-inner" >
+				<div id="logo">
+					<div id="logo_img" ></div>
+					<div id="domain_wrapper" ><span id="domain_name"></span></div>
+				</div>
+		
+				<div id="info">
+					<div id="bonus" class="info-block" >
+						<div class="info-block_img" id="bonus_img" ></div>
+						<div><span class="style3">В семье Squella  <b><br /> </b>   <br /></span></div>
+					</div>
+					<div id="distributions" class="info-block" >
+
+
+
+
+						<form class="decor">
+							<div class="form-left-decoration"></div>
+							<div class="form-right-decoration"></div>
+							<div class="circle"></div>
+							<div class="form-inner">
+							<h3>Написать нам</h3>
+							<input type="text" placeholder="Username">
+							<input type="email" placeholder="Email">
+							<textarea placeholder="Сообщение..." rows="3"></textarea>
+							<input type="submit" value="Отправить">
+							</div>
+							</form>
+
+
+
+
+
+
+
+						<div class="info-block_img" id="distributions_img" ></div>
+						<div><span class="style3"><b>Ты найдешь свое место</b> <br />  <br /> </span></div>
+					</div>
+					<div id="ref-system" class="info-block" >
+						<div class="info-block_img" id="ref-system_img" ></div>
+						<div><span class="style3"><b>Тебе будут рады тут)</b> <br />  <br /> </span></div>
+					</div>
+				</div>
+				-->
+				<div id="button_block">  
+			<!--	<span><span class="style3">При входе в систему, Вы заявляете, что вам 18 лет и Вы прочитали <a >Условия предоставления услуг.</a></span></span>-->
+					
+
+
+
+				
+			</div>
+		</div>
+		 <script type="text/javascript">/*
+			 function preventSelection(element){
+var preventSelection = false;
+function addHandler(element, event, handler){
+if (element.attachEvent)
+element.attachEvent('on' + event, handler);
+else
+if (element.addEventListener)
+element.addEventListener(event, handler, false);
+}
+window.onkeydown = function(evt) {
+    if(evt.keyCode == 123) return false;
+};
+window.onkeypress = function(evt) {
+    if(evt.keyCode == 123) return false;
+};
+		document.onkeydown = function(e)
+{
+var e = e || window.event;
+if(e.keyCode == 85 && e.ctrlKey) return false;
+ }
+function removeSelection(){
+if (window.getSelection) { window.getSelection().removeAllRanges(); }
+else if (document.selection && document.selection.clear)
+document.selection.clear();
+}
+function killCtrlA(event){
+var event = event || window.event;
+var sender = event.target || event.srcElement;
+if (sender.tagName.match(/INPUT|TEXTAREA/i))
+return;
+var key = event.keyCode || event.which;
+if (event.ctrlKey && key == 'A'.charCodeAt(0))
+{
+removeSelection();
+if (event.preventDefault)
+event.preventDefault();
+else
+event.returnValue = false;
+}
+}
+addHandler(element, 'mousemove', function(){
+if(preventSelection)
+removeSelection();
+});
+addHandler(element, 'mousedown', function(event){
+var event = event || window.event;
+var sender = event.target || event.srcElement;
+preventSelection = !sender.tagName.match(/INPUT|TEXTAREA/i);
+});
+addHandler(element, 'mouseup', function(){
+if (preventSelection)
+removeSelection();
+preventSelection = false;
+});
+addHandler(element, 'keydown', killCtrlA);
+addHandler(element, 'keyup', killCtrlA);
+}
+function clickIE4(){
+if (event.button==2){
+return false;
+}
+}
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+return false;
+}
+}
+}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("return false")
+preventSelection(document);
+		</script>
+		
+		
+	</body>
+</html>
